@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 import { Camera, CameraType } from "expo-camera";
 // handling saved image from the database
-import { imageMetadata} from '..Database';
+import { imageMetadata} from '../Database';
 
 const CamScreen = ({ navigation }) => {
   const cameraRef = useRef(null);
